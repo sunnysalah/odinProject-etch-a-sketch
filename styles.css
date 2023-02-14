@@ -1,8 +1,12 @@
 #container{
+    background-color: blue;
     display: grid;
-    grid-template-columns: repeat(16, 1fr);
+    grid-template-columns: repeat(16, 0fr);
+    justify-content: center;
 }
 .squares{
+    background-color: white;
+    border:1px solid black ;
     height: 50px;
     width: 50px;
 }
