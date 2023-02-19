@@ -1,12 +1,26 @@
+
 #container{
+    margin: auto;
     background-color: blue;
     display: grid;
     grid-template-columns: repeat(16, 0fr);
     justify-content: center;
+    max-width: 960px;
+    width: 100%;
 }
 .squares{
     background-color: white;
-    border:1px solid black ;
-    height: 50px;
+    border: 1px solid black;
+}
+
+#buttonContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#button{
+    height: 25px;
     width: 50px;
+    border-radius: 3px;
 }
